@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Model weights (too large)
+weights/yolov3.weights
+
+# Output directories
+outputs/
+*.csv
+*.avi
+*.jpg
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with sensitive data
+config_personal.json
+
+
+*.mp4
+*.avi
+*.mov
+weights/
